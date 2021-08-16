@@ -1,0 +1,5 @@
+python object_detection/dataset_tools/create_kitti_tf_record.py --data_dir=C:/AdverseWeatherDataset/Kitti --output_path=C:/AdverseWeatherDataset/Kitti/Output/faster-rcnn --classes_to_use=car ,van ,truck ,pedestrian ,cyclist ,tram ,dontcare --label_map_path=C:/AdverseWeatherDataset/CADC/TensorFlow/models/research/object_detection/data/kitti_label_map.pbtxt
+
+python object_detection/dataset_tools/create_kitti_tf_record.py --data_dir=C:/AdverseWeatherDataset/CADC/Dataset --output_path=C:/AdverseWeatherDataset/Kitti/data/faster-rcnn-cadc --classes_to_use=car ,van ,truck ,pedestrian ,cyclist ,tram ,dontcare --label_map_path=C:/AdverseWeatherDataset/CADC/TensorFlow/models/research/object_detection/data/kitti_label_map.pbtxt
+
+python object_detection/dataset_tools/create_kitti_tf_record.py --data_dir=C:/AdverseWeatherDataset/CADC/Dataset1 --output_path=C:/AdverseWeatherDataset/Kitti/data/faster-rcnn-cadc-75 --classes_to_use=car ,van ,truck ,pedestrian ,cyclist ,tram ,dontcare --label_map_path=C:/AdverseWeatherDataset/TensorFlow/models/research/object_detection/data/kitti_label_map.pbtxt
