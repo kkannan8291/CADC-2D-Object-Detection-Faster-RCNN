@@ -36,8 +36,8 @@ def initial_imagenet(sess, path_to_npz):
             pass
 
 def main():
-    os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
-    random.seed(args.seed)
+    #os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
+    #random.seed(args.seed)
 
     model = xxModel(num_classes=2)
 
