@@ -4,6 +4,7 @@ import random
 import tensorflow.compat.v2 as tf
 import numpy as np
 from common import measure
+import tensorlayer as tl
 
 path_to_npz ='/home/kaushik/ObjectDetection/CADC-2D-Object-Detection-Faster-RCNN/models/moco-preTrainedModel/MoCo_v2.npz'
 
