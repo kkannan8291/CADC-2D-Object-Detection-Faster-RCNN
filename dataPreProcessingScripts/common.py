@@ -2,6 +2,7 @@
 import numpy as np
 import tensorflow.compat.v2 as tf
 import cv2
+import time
 
 regularizer_conv = 0.004
 regularizer_dsconv = 0.0004
