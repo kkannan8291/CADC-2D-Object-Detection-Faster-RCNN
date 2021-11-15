@@ -39,11 +39,11 @@ def main():
     #os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
     #random.seed(args.seed)
 
-    model = xxModel(num_classes=2)
+    #model = xxModel(num_classes=2)
 
     with tf.Session() as sess:
         initial_imagenet(sess=sess, path_to_npz=args.npz_file)
-        train(sess, model, train_set, val_set, args.checkpoint, **train_kwargs(args))
+        #train(sess, model, train_set, val_set, args.checkpoint, **train_kwargs(args))
         ...
 
 
