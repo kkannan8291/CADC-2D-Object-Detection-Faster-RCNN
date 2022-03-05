@@ -7,7 +7,7 @@ if __name__ == '__main__':
     source_folder =r'/home/kaushik/ObjectDetection/moco/detection/datasets/VOC2007/JPEGImages'
     dest = r'/home/kaushik/ObjectDetection/moco/detection/datasets/VOC2007/ImageSets/Main/trainval.txt'
     dest2 = r'/home/kaushik/ObjectDetection/moco/detection/datasets/VOC2007/ImageSets/Main/test.txt'
-    file_list = os.listdir(source_folder)
+    file_list = sorted(os.listdir(source_folder))
     train_file = open(dest, 'a')
     test_file = open(dest2, 'a')
     i=0
